@@ -1,4 +1,4 @@
-package chapter3.lesson17.demo3118;
+package chapter3.lesson17.demo3135;
 
 public class Book {
     private String title;
@@ -24,6 +24,6 @@ public class Book {
     }
 
     public String getInfo() {
-        return "图书名称："+title+"，图书价格"+price;
+        return "图书名称："+title+"，图书价格："+price;
     }
 }
