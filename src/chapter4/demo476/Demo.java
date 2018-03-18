@@ -9,6 +9,8 @@ public class Demo {
         all.add("D");
 
         System.out.println(all.size());
+        
+
 
 
     }

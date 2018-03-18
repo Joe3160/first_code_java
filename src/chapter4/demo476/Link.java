@@ -133,10 +133,10 @@ public class Link {
 
         if (data.equals(this.root.data)) {//要删除的数据为根节点的数据
             this.root = this.root.next;
-            this.count++;
+            this.count--;
             return true;
         } else {
-            this.count++;
+            this.count--;
             return this.root.next.removeNode(this.root, data);
         }
     }
