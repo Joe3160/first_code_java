@@ -4,7 +4,7 @@ public class Singleton {
     /**
      * 定义静态的、不可修改的实例对象
      * 故无论外部怎么调用多次，整个程序运行过程中只有一个该类的实例
-     * 可节省实例的次数，节省内存
+     *  可节省实例的次数，节省内存
      */
     private final static Singleton instance = new Singleton();
 
